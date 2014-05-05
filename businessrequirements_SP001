@@ -22,3 +22,6 @@ Implementation Correctoin
 1. export test case as java file throught junit webdriver
 2. you have to debug what you copy on eclipse by importing selenium files (only 2 in total)
 3. re-runing and debug
+
+Difficult parts:
+1. How to automate dropdownlist....ugh
