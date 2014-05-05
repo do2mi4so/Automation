@@ -24,4 +24,4 @@ Implementation Correctoin
 3. re-runing and debug
 
 Difficult parts:
-1. How to automate dropdownlist....ugh
+1. How to automate dropdownlist....ugh, will try http://stackoverflow.com/questions/19558001/how-to-select-value-form-drop-down-list-in-selenium-web-driver-java
