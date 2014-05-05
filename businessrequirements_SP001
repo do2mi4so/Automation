@@ -14,6 +14,11 @@ Here are the steps:
    Download selenium standalone jar file and related selenium files
    Download eclipse and make sure you have junit
 2. Record the process of creating a google email account
-   Export the document as a .java file
+   Export the test case as a .java file
 3. Copy the java code from your exportation and edit it on eclipse
 4. Comment on the specific and common usage of java code in automation
+
+Implementation Correctoin
+1. export test case as java file throught junit webdriver
+2. you have to debug what you copy on eclipse by importing selenium files (only 2 in total)
+3. re-runing and debug
