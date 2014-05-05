@@ -36,22 +36,24 @@ public class Creatingagmail {
     driver.findElement(By.id("LastName")).clear();
     driver.findElement(By.id("LastName")).sendKeys("Project");
     driver.findElement(By.id("GmailAddress")).clear();
-    driver.findElement(By.id("GmailAddress")).sendKeys("summer_project_001");
-    driver.findElement(By.id("GmailAddress")).click();
-    driver.findElement(By.id("GmailAddress")).click();
-    driver.findElement(By.id("GmailAddress")).clear();
-    driver.findElement(By.id("GmailAddress")).sendKeys("summer.project.001");
-    driver.findElement(By.id("Passwd")).click();
-    driver.findElement(By.id("GmailAddress")).click();
-    driver.findElement(By.id("GmailAddress")).clear();
-    driver.findElement(By.id("GmailAddress")).sendKeys("summer.project.001.ningcanton");
+    driver.findElement(By.id("GmailAddress")).sendKeys("summer.project.001.ningcanton1");
     driver.findElement(By.id("Passwd")).click();
     driver.findElement(By.id("Passwd")).clear();
     driver.findElement(By.id("Passwd")).sendKeys("Uiowa2013");
     driver.findElement(By.id("PasswdAgain")).clear();
     driver.findElement(By.id("PasswdAgain")).sendKeys("Uiowa2013");
-    driver.findElement(By.id("HiddenBirthMonth")).click();
+    /*
+     * how to avoid stopping
+     */
+    Select select=new Select(driver.findElement(By.id("BirthMoth")));
+    select.selectByValue("July");
+    /*
+     * I want to use the drop down function
+     */
     driver.findElement(By.id("birthday-placeholder")).click();
+    /*
+     * need to find a way to correc tthis bug
+     */
     driver.findElement(By.id("BirthDay")).clear();
     driver.findElement(By.id("BirthDay")).sendKeys("05");
     driver.findElement(By.id("BirthYear")).clear();
