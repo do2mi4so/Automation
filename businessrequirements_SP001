@@ -1,0 +1,19 @@
+In this document, I am going to present the business requirements for summer project 001 (SP001).
+
+The purpose of summer projects series is to demonstrate my programming skills.
+
+summer project 001 is to present my java development skills with a focus on automations
+
+That is, summer project 001 is to automate a website.
+
+I choose to automate the process of creating a google email account.
+
+Here are the steps:
+1. Set up Selenium IDE by downloading it from selenium.org.
+   Download firefox, firepath, and firebug
+   Download selenium standalone jar file and related selenium files
+   Download eclipse and make sure you have junit
+2. Record the process of creating a google email account
+   Export the document as a .java file
+3. Copy the java code from your exportation and edit it on eclipse
+4. Comment on the specific and common usage of java code in automation
