@@ -1,0 +1,11 @@
+/*
+Using xpath
+*/
+browser.select("//path_to_drop_down", "Value1");
+browser.getSelectedValue("//path_to_drop_down");
+
+
+  //new Select (driver.findElement(By.id("BirthMonth"))).selectByVisibleText("July");
+    driver.findElement(By.id("month-label")).click();
+    driver.findElement(By.id("month-label")).equals("August");
+  //
